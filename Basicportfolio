@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOMAN PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="bpf.css">
+    <script src="https://kit.fontawesome.com/827a182b0d.js" crossorigin="anonymous"></script>
+    <style>
+    body{
+    background-color: #F9FAFB;
+    color: #1F2937;
+    margin: 0px;
+    }
+    header{
+        text-align: center;
+        padding: 15px;
+        background-color: #E0E7FF;
+    }
+    li{
+        list-style: none;
+        display: inline;
+        margin: 25px;
+    }
+    a{
+        text-decoration: none;
+        color: #2563EB;
+    }
+    a:hover{
+        font-size: 1.1em;
+        color: #1D4ED8;
+    }
+    .home{
+        margin: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: large;
+        border: #F9FAFB solid;
+        box-shadow: 2px 4px 6px;
+    }
+    .about{
+        margin: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: large;
+        border: #F9FAFB solid;
+        box-shadow: 2px 4px 6px;
+    }
+    .projects{
+        margin: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: large;
+        border: #F9FAFB solid;
+        box-shadow: 2px 4px 6px;
+    }
+    .fa-brands.fa-linkedin.fa-20xs{
+        color:hsla(195, 94%, 41%, 0.842);
+    }
+    footer{
+        background-color: #C7D2FE;
+        height: 150px;
+    }
+    footer .contact{
+        margin-bottom:25px;
+    }
+    .con{
+        margin: 5px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+    }
+    .skills {
+        text-align: center;
+        display: inline-block;
+        flex-wrap: wrap;
+    }
+    .fa-brands.fa-python.fa-2x{
+        color:#4487c2;
+        margin-left:10px ;
+    }
+    .fa-brands.fa-html5.fa-2x{
+        color:#d87213;
+    }
+    .fa-brands.fa-css3-alt.fa-2x{
+        color: #c5c533;
+    }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>SYED NUMAN</h1>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </header>
+    <main>
+        <div class="home">
+            <br>
+        <pre>Hi, I’m Noman Hassan — a B.Tech CSE student at Holy Mary Institute of Technology.  
+I love building simple and smart projects using Python and exploring Artificial Intelligence.
+</pre>  
+        </div>
+        <div class="about">
+        <br>
+        <pre>I’m passionate about technology and problem-solving.  
+Currently, I’m learning Python, web development, and AI tools to build innovative solutions.  
+My goal is to become a skilled AI Engineer and contribute to impactful projects.</pre>
+        </div>
+        <div class="projects">
+        <br>
+        <pre>
+<b>Projects:</b>
+            Portfolio Website – Built using HTML, CSS, and JavaScript to showcase my skills.
+            AI Chat Assistant – A mini chatbot created using Python.
+
+<b>Skills:</b>
+    <div class="skills">
+        <i class="fa-brands fa-python fa-2x"></i>
+        <pre><h3>        Python</h3></pre>
+        <i class="fa-brands fa-html5 fa-2x"></i>
+        <pre><h3>       HTML</h3></pre>
+        <i class="fa-brands fa-css3-alt fa-2x"></i>
+        <pre><h3>       CSS</h3></pre>
+        <i class="fa-brands fa-square-github fa-2x"></i>
+        <pre><h3>       Github</h3></pre><br>
+    </div>
+<b>Certification:</b>
+
+    - Certificate in “Python” by Sharp n Smart Institute
+    - Completed "Python" Course on CodeChef
+    </pre>
+        </div>
+
+    </main>
+    <footer>
+        <div class="con">Contact :</div>
+        <div class="contact">
+        <p>📧 Email : <a href="mailto:nomanull789@gmail.com" target="_blank">nomanull789@gmail.com</a></p>
+        <p><i class="fa-brands fa-linkedin fa-20xs"></i> Linkedin : <a href="www.linkedin.com/in/noman-hassan-66a2b0339" target="_blank">www.linkedin.com/in/nomanhassan</a></p>
+        <p><i class="fa-brands fa-square-github fa-20xs"></i> Github :  <a href="https://github.com/SYED-NUMAN-7" target="_blank">www.github.com/SYED-NUMAN-7</a></p>
+        </div>
+    </footer>
+</body>
+</html>
